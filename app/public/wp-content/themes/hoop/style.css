@@ -66,6 +66,14 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
  * 1. Correct the line height in all browsers.
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
+
+:root {
+	--green: #274b40;
+	--orange: #f8bd3b;
+	--black: #000000;
+	--white: #FFF;
+}
+
 html {
 	line-height: 1.15;
 	-webkit-text-size-adjust: 100%;
@@ -77,6 +85,7 @@ html {
 /**
  * Remove the margin in all browsers.
  */
+
 body {
 	margin: 0;
 }
@@ -84,6 +93,7 @@ body {
 /**
  * Render the `main` element consistently in IE.
  */
+
 main {
 	display: block;
 }
@@ -92,6 +102,7 @@ main {
  * Correct the font size and margin on `h1` elements within `section` and
  * `article` contexts in Chrome, Firefox, and Safari.
  */
+
 h1 {
 	font-size: 2em;
 	margin: 0.67em 0;
@@ -104,6 +115,7 @@ h1 {
  * 1. Add the correct box sizing in Firefox.
  * 2. Show the overflow in Edge and IE.
  */
+
 hr {
 	box-sizing: content-box;
 	height: 0;
@@ -114,6 +126,7 @@ hr {
  * 1. Correct the inheritance and scaling of font size in all browsers.
  * 2. Correct the odd `em` font sizing in all browsers.
  */
+
 pre {
 	font-family: monospace, monospace;
 	font-size: 1em;
@@ -125,6 +138,7 @@ pre {
 /**
  * Remove the gray background on active links in IE 10.
  */
+
 a {
 	background-color: transparent;
 }
@@ -133,6 +147,7 @@ a {
  * 1. Remove the bottom border in Chrome 57-
  * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
  */
+
 abbr[title] {
 	border-bottom: none;
 	text-decoration: underline;
@@ -142,8 +157,8 @@ abbr[title] {
 /**
  * Add the correct font weight in Chrome, Edge, and Safari.
  */
-b,
-strong {
+
+b, strong {
 	font-weight: bolder;
 }
 
@@ -151,9 +166,8 @@ strong {
  * 1. Correct the inheritance and scaling of font size in all browsers.
  * 2. Correct the odd `em` font sizing in all browsers.
  */
-code,
-kbd,
-samp {
+
+code, kbd, samp {
 	font-family: monospace, monospace;
 	font-size: 1em;
 }
@@ -161,6 +175,7 @@ samp {
 /**
  * Add the correct font size in all browsers.
  */
+
 small {
 	font-size: 80%;
 }
@@ -169,8 +184,8 @@ small {
  * Prevent `sub` and `sup` elements from affecting the line height in
  * all browsers.
  */
-sub,
-sup {
+
+sub, sup {
 	font-size: 75%;
 	line-height: 0;
 	position: relative;
@@ -191,6 +206,7 @@ sup {
 /**
  * Remove the border on images inside links in IE 10.
  */
+
 img {
 	border-style: none;
 }
@@ -202,11 +218,8 @@ img {
  * 1. Change the font styles in all browsers.
  * 2. Remove the margin in Firefox and Safari.
  */
-button,
-input,
-optgroup,
-select,
-textarea {
+
+button, input, optgroup, select, textarea {
 	font-family: inherit;
 	font-size: 100%;
 	line-height: 1.15;
@@ -217,8 +230,8 @@ textarea {
  * Show the overflow in IE.
  * 1. Show the overflow in Edge.
  */
-button,
-input {
+
+button, input {
 	overflow: visible;
 }
 
@@ -226,28 +239,24 @@ input {
  * Remove the inheritance of text transform in Edge, Firefox, and IE.
  * 1. Remove the inheritance of text transform in Firefox.
  */
-button,
-select {
+
+button, select {
 	text-transform: none;
 }
 
 /**
  * Correct the inability to style clickable types in iOS and Safari.
  */
-button,
-[type="button"],
-[type="reset"],
-[type="submit"] {
+
+button, [type="button"], [type="reset"], [type="submit"] {
 	-webkit-appearance: button;
 }
 
 /**
  * Remove the inner border and padding in Firefox.
  */
-button::-moz-focus-inner,
-[type="button"]::-moz-focus-inner,
-[type="reset"]::-moz-focus-inner,
-[type="submit"]::-moz-focus-inner {
+
+button::-moz-focus-inner, [type="button"]::-moz-focus-inner, [type="reset"]::-moz-focus-inner, [type="submit"]::-moz-focus-inner {
 	border-style: none;
 	padding: 0;
 }
@@ -255,16 +264,15 @@ button::-moz-focus-inner,
 /**
  * Restore the focus styles unset by the previous rule.
  */
-button:-moz-focusring,
-[type="button"]:-moz-focusring,
-[type="reset"]:-moz-focusring,
-[type="submit"]:-moz-focusring {
+
+button:-moz-focusring, [type="button"]:-moz-focusring, [type="reset"]:-moz-focusring, [type="submit"]:-moz-focusring {
 	outline: 1px dotted ButtonText;
 }
 
 /**
  * Correct the padding in Firefox.
  */
+
 fieldset {
 	padding: 0.35em 0.75em 0.625em;
 }
@@ -275,6 +283,7 @@ fieldset {
  * 3. Remove the padding so developers are not caught out when they zero out
  *		`fieldset` elements in all browsers.
  */
+
 legend {
 	box-sizing: border-box;
 	color: inherit;
@@ -287,6 +296,7 @@ legend {
 /**
  * Add the correct vertical alignment in Chrome, Firefox, and Opera.
  */
+
 progress {
 	vertical-align: baseline;
 }
@@ -294,6 +304,7 @@ progress {
 /**
  * Remove the default vertical scrollbar in IE 10+.
  */
+
 textarea {
 	overflow: auto;
 }
@@ -302,8 +313,8 @@ textarea {
  * 1. Add the correct box sizing in IE 10.
  * 2. Remove the padding in IE 10.
  */
-[type="checkbox"],
-[type="radio"] {
+
+[type="checkbox"], [type="radio"] {
 	box-sizing: border-box;
 	padding: 0;
 }
@@ -311,8 +322,8 @@ textarea {
 /**
  * Correct the cursor style of increment and decrement buttons in Chrome.
  */
-[type="number"]::-webkit-inner-spin-button,
-[type="number"]::-webkit-outer-spin-button {
+
+[type="number"]::-webkit-inner-spin-button, [type="number"]::-webkit-outer-spin-button {
 	height: auto;
 }
 
@@ -320,6 +331,7 @@ textarea {
  * 1. Correct the odd appearance in Chrome and Safari.
  * 2. Correct the outline style in Safari.
  */
+
 [type="search"] {
 	-webkit-appearance: textfield;
 	outline-offset: -2px;
@@ -328,6 +340,7 @@ textarea {
 /**
  * Remove the inner padding in Chrome and Safari on macOS.
  */
+
 [type="search"]::-webkit-search-decoration {
 	-webkit-appearance: none;
 }
@@ -336,6 +349,7 @@ textarea {
  * 1. Correct the inability to style clickable types in iOS and Safari.
  * 2. Change font properties to `inherit` in Safari.
  */
+
 ::-webkit-file-upload-button {
 	-webkit-appearance: button;
 	font: inherit;
@@ -347,6 +361,7 @@ textarea {
 /*
  * Add the correct display in Edge, IE 10+, and Firefox.
  */
+
 details {
 	display: block;
 }
@@ -354,6 +369,7 @@ details {
 /*
  * Add the correct display in all browsers.
  */
+
 summary {
 	display: list-item;
 }
@@ -364,6 +380,7 @@ summary {
 /**
  * Add the correct display in IE 10+.
  */
+
 template {
 	display: none;
 }
@@ -371,6 +388,7 @@ template {
 /**
  * Add the correct display in IE 10.
  */
+
 [hidden] {
 	display: none;
 }
@@ -380,9 +398,8 @@ template {
 
 /* Inherit box-sizing to more easily change it's value on a component level.
 @link http://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice/ */
-*,
-*::before,
-*::after {
+
+*, *::before, *::after {
 	box-sizing: inherit;
 }
 
@@ -396,24 +413,15 @@ html {
 
 /* Typography
 --------------------------------------------- */
-body,
-button,
-input,
-select,
-optgroup,
-textarea {
+
+body, button, input, select, optgroup, textarea {
 	color: #404040;
 	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
 	font-size: 1rem;
 	line-height: 1.5;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h1, h2, h3, h4, h5, h6 {
 	clear: both;
 }
 
@@ -421,10 +429,7 @@ p {
 	margin-bottom: 1.5em;
 }
 
-dfn,
-cite,
-em,
-i {
+dfn, cite, em, i {
 	font-style: italic;
 }
 
@@ -446,21 +451,16 @@ pre {
 	padding: 1.6em;
 }
 
-code,
-kbd,
-tt,
-var {
+code, kbd, tt, var {
 	font-family: monaco, consolas, "Andale Mono", "DejaVu Sans Mono", monospace;
 }
 
-abbr,
-acronym {
+abbr, acronym {
 	border-bottom: 1px dotted #666;
 	cursor: help;
 }
 
-mark,
-ins {
+mark, ins {
 	background: #fff9c0;
 	text-decoration: none;
 }
@@ -471,6 +471,7 @@ big {
 
 /* Elements
 --------------------------------------------- */
+
 body {
 	background: #fff;
 }
@@ -482,8 +483,7 @@ hr {
 	margin-bottom: 1.5em;
 }
 
-ul,
-ol {
+ul, ol {
 	margin: 0 0 1.5em 3em;
 }
 
@@ -495,8 +495,7 @@ ol {
 	list-style: decimal;
 }
 
-li > ul,
-li > ol {
+li>ul, li>ol {
 	margin-bottom: 0;
 	margin-left: 1.5em;
 }
@@ -510,9 +509,8 @@ dd {
 }
 
 /* Make sure embeds and iframes fit their containers. */
-embed,
-iframe,
-object {
+
+embed, iframe, object {
 	max-width: 100%;
 }
 
@@ -532,6 +530,7 @@ table {
 
 /* Links
 --------------------------------------------- */
+
 a {
 	color: #4169e1;
 }
@@ -540,9 +539,7 @@ a:visited {
 	color: #800080;
 }
 
-a:hover,
-a:focus,
-a:active {
+a:hover, a:focus, a:active {
 	color: #191970;
 }
 
@@ -550,17 +547,14 @@ a:focus {
 	outline: thin dotted;
 }
 
-a:hover,
-a:active {
+a:hover, a:active {
 	outline: 0;
 }
 
 /* Forms
 --------------------------------------------- */
-button,
-input[type="button"],
-input[type="reset"],
-input[type="submit"] {
+
+button, input[type="button"], input[type="reset"], input[type="submit"] {
 	border: 1px solid;
 	border-color: #ccc #ccc #bbb;
 	border-radius: 3px;
@@ -570,62 +564,22 @@ input[type="submit"] {
 	padding: 0.6em 1em 0.4em;
 }
 
-button:hover,
-input[type="button"]:hover,
-input[type="reset"]:hover,
-input[type="submit"]:hover {
+button:hover, input[type="button"]:hover, input[type="reset"]:hover, input[type="submit"]:hover {
 	border-color: #ccc #bbb #aaa;
 }
 
-button:active,
-button:focus,
-input[type="button"]:active,
-input[type="button"]:focus,
-input[type="reset"]:active,
-input[type="reset"]:focus,
-input[type="submit"]:active,
-input[type="submit"]:focus {
+button:active, button:focus, input[type="button"]:active, input[type="button"]:focus, input[type="reset"]:active, input[type="reset"]:focus, input[type="submit"]:active, input[type="submit"]:focus {
 	border-color: #aaa #bbb #bbb;
 }
 
-input[type="text"],
-input[type="email"],
-input[type="url"],
-input[type="password"],
-input[type="search"],
-input[type="number"],
-input[type="tel"],
-input[type="range"],
-input[type="date"],
-input[type="month"],
-input[type="week"],
-input[type="time"],
-input[type="datetime"],
-input[type="datetime-local"],
-input[type="color"],
-textarea {
+input[type="text"], input[type="email"], input[type="url"], input[type="password"], input[type="search"], input[type="number"], input[type="tel"], input[type="range"], input[type="date"], input[type="month"], input[type="week"], input[type="time"], input[type="datetime"], input[type="datetime-local"], input[type="color"], textarea {
 	color: #666;
 	border: 1px solid #ccc;
 	border-radius: 3px;
 	padding: 3px;
 }
 
-input[type="text"]:focus,
-input[type="email"]:focus,
-input[type="url"]:focus,
-input[type="password"]:focus,
-input[type="search"]:focus,
-input[type="number"]:focus,
-input[type="tel"]:focus,
-input[type="range"]:focus,
-input[type="date"]:focus,
-input[type="month"]:focus,
-input[type="week"]:focus,
-input[type="time"]:focus,
-input[type="datetime"]:focus,
-input[type="datetime-local"]:focus,
-input[type="color"]:focus,
-textarea:focus {
+input[type="text"]:focus, input[type="email"]:focus, input[type="url"]:focus, input[type="password"]:focus, input[type="search"]:focus, input[type="number"]:focus, input[type="tel"]:focus, input[type="range"]:focus, input[type="date"]:focus, input[type="month"]:focus, input[type="week"]:focus, input[type="time"]:focus, input[type="datetime"]:focus, input[type="datetime-local"]:focus, input[type="color"]:focus, textarea:focus {
 	color: #111;
 }
 
@@ -647,6 +601,7 @@ textarea {
 
 /* Navigation
 --------------------------------------------- */
+
 .main-navigation {
 	display: block;
 	width: 100%;
@@ -673,8 +628,7 @@ textarea {
 	top: 0;
 }
 
-.main-navigation ul ul li:hover > ul,
-.main-navigation ul ul li.focus > ul {
+.main-navigation ul ul li:hover>ul, .main-navigation ul ul li.focus>ul {
 	display: block;
 	left: auto;
 }
@@ -683,8 +637,7 @@ textarea {
 	width: 200px;
 }
 
-.main-navigation ul li:hover > ul,
-.main-navigation ul li.focus > ul {
+.main-navigation ul li:hover>ul, .main-navigation ul li.focus>ul {
 	left: auto;
 }
 
@@ -698,57 +651,45 @@ textarea {
 }
 
 /* Small menu. */
-.menu-toggle,
-.main-navigation.toggled ul {
+
+.menu-toggle, .main-navigation.toggled ul {
 	display: block;
 }
 
 @media screen and (min-width: 37.5em) {
-
 	.menu-toggle {
 		display: none;
 	}
-
 	.main-navigation ul {
 		display: flex;
 	}
 }
 
-.site-main .comment-navigation,
-.site-main
-.posts-navigation,
-.site-main
-.post-navigation {
+.site-main .comment-navigation, .site-main .posts-navigation, .site-main .post-navigation {
 	margin: 0 0 1.5em;
 }
 
-.comment-navigation .nav-links,
-.posts-navigation .nav-links,
-.post-navigation .nav-links {
+.comment-navigation .nav-links, .posts-navigation .nav-links, .post-navigation .nav-links {
 	display: flex;
 }
 
-.comment-navigation .nav-previous,
-.posts-navigation .nav-previous,
-.post-navigation .nav-previous {
+.comment-navigation .nav-previous, .posts-navigation .nav-previous, .post-navigation .nav-previous {
 	flex: 1 0 50%;
 }
 
-.comment-navigation .nav-next,
-.posts-navigation .nav-next,
-.post-navigation .nav-next {
+.comment-navigation .nav-next, .posts-navigation .nav-next, .post-navigation .nav-next {
 	text-align: end;
 	flex: 1 0 50%;
 }
 
 /* Posts and pages
 --------------------------------------------- */
+
 .sticky {
 	display: block;
 }
 
-.post,
-.page {
+.post, .page {
 	margin: 0 0 1.5em;
 }
 
@@ -756,9 +697,7 @@ textarea {
 	display: none;
 }
 
-.page-content,
-.entry-content,
-.entry-summary {
+.page-content, .entry-content, .entry-summary {
 	margin: 1.5em 0 0;
 }
 
@@ -769,6 +708,7 @@ textarea {
 
 /* Comments
 --------------------------------------------- */
+
 .comment-content a {
 	word-wrap: break-word;
 }
@@ -779,6 +719,7 @@ textarea {
 
 /* Widgets
 --------------------------------------------- */
+
 .widget {
 	margin: 0 0 1.5em;
 }
@@ -789,9 +730,8 @@ textarea {
 
 /* Media
 --------------------------------------------- */
-.page-content .wp-smiley,
-.entry-content .wp-smiley,
-.comment-content .wp-smiley {
+
+.page-content .wp-smiley, .entry-content .wp-smiley, .comment-content .wp-smiley {
 	border: none;
 	margin-bottom: 0;
 	margin-top: 0;
@@ -799,12 +739,14 @@ textarea {
 }
 
 /* Make sure logo link wraps around logo image. */
+
 .custom-logo-link {
 	display: inline-block;
 }
 
 /* Captions
 --------------------------------------------- */
+
 .wp-caption {
 	margin-bottom: 1.5em;
 	max-width: 100%;
@@ -826,6 +768,7 @@ textarea {
 
 /* Galleries
 --------------------------------------------- */
+
 .gallery {
 	margin-bottom: 1.5em;
 	display: grid;
@@ -882,12 +825,13 @@ textarea {
 --------------------------------------------- */
 
 /* Hide the Posts Navigation and the Footer when Infinite Scroll is in use. */
-.infinite-scroll .posts-navigation,
-.infinite-scroll.neverending .site-footer {
+
+.infinite-scroll .posts-navigation, .infinite-scroll.neverending .site-footer {
 	display: none;
 }
 
 /* Re-display the Theme Footer when Infinite Scroll has reached its end. */
+
 .infinity-end.neverending .site-footer {
 	display: block;
 }
@@ -900,6 +844,7 @@ textarea {
 --------------------------------------------- */
 
 /* Text meant only for screen readers. */
+
 .screen-reader-text {
 	border: 0;
 	clip: rect(1px, 1px, 1px, 1px);
@@ -934,27 +879,25 @@ textarea {
 }
 
 /* Do not show the outline on the skip link target. */
+
 #primary[tabindex="-1"]:focus {
 	outline: 0;
 }
 
 /* Alignments
 --------------------------------------------- */
-.alignleft {
 
+.alignleft {
 	/*rtl:ignore*/
 	float: left;
-
 	/*rtl:ignore*/
 	margin-right: 1.5em;
 	margin-bottom: 1.5em;
 }
 
 .alignright {
-
 	/*rtl:ignore*/
 	float: right;
-
 	/*rtl:ignore*/
 	margin-left: 1.5em;
 	margin-bottom: 1.5em;
@@ -967,3 +910,56 @@ textarea {
 	margin-right: auto;
 	margin-bottom: 1.5em;
 }
+
+/*
+*Dylan ADDED
+*/
+
+#masthead {
+	width: 100%;
+	height: 100px !important;
+	background: linear-gradient( 0deg, rgba(218, 218, 218, 0.5) -80%, rgb(255, 255, 255) 100%);
+	backdrop-filter: blur(2px);
+}
+
+#masthead>div {
+	height: 100px !important;
+}
+
+.menu-item a {
+	font-size: 24px;
+	color: var(--green);
+	text-transform: uppercase;
+	line-height: 60px !important;
+	height: 60px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding-top: 0px !important;
+	padding-bottom: 0px !important;
+}
+
+.menu-item a:hover {
+	color: var(--orange);
+	transform: scale(1.1);
+}
+
+.menu-item a {
+	transition-property: color, transform;
+	transition-duration: 150ms;
+	transition-timing-function: ease-out;
+}
+
+.entry-header {
+	display: none;
+	/* margin-top: 100px !important; */
+}
+.custom-logo{margin: 10px 0px;
+	max-height: 80px;
+	max-width: 80px;
+}
+/* .menu-primary-container {
+	display: flex;
+}
+ div.main-navigation div ul{
+	display: flex;
+} */

@@ -52,7 +52,7 @@ if (!function_exists('hoop_setup')) :
 		// This theme uses wp_nav_menu() in one location.
 		register_nav_menus(
 			array(
-				'menu-primary' => esc_html__('Primary', 'hoop'),
+				'menu-primary' => esc_html__('Primary', 'hoop'),	'menu-socials' => esc_html__('Socials', 'hoop'),
 			)
 		);
 
