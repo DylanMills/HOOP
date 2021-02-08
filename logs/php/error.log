@@ -76,3 +76,18 @@
 [05-Feb-2021 19:36:52 UTC] PHP Parse error:  syntax error, unexpected '.3' (T_DNUMBER), expecting ')' in C:\Users\Dylan\Desktop\HOOP\Cthulhuhoop-Customs\app\public\wp-content\themes\hoop\functions.php on line 216
 [05-Feb-2021 19:36:53 UTC] PHP Parse error:  syntax error, unexpected '.3' (T_DNUMBER), expecting ')' in C:\Users\Dylan\Desktop\HOOP\Cthulhuhoop-Customs\app\public\wp-content\themes\hoop\functions.php on line 216
 [05-Feb-2021 19:36:53 UTC] PHP Parse error:  syntax error, unexpected '.3' (T_DNUMBER), expecting ')' in C:\Users\Dylan\Desktop\HOOP\Cthulhuhoop-Customs\app\public\wp-content\themes\hoop\functions.php on line 216
+[08-Feb-2021 19:22:45 UTC] PHP Warning:  chmod(): No such file or directory in C:\Users\Dylan\Desktop\HOOP\Cthulhuhoop-Customs\app\public\wp-admin\includes\class-wp-filesystem-direct.php on line 173
+[08-Feb-2021 19:22:45 UTC] PHP Stack trace:
+[08-Feb-2021 19:22:45 UTC] PHP   1. {main}() C:\Users\Dylan\Desktop\HOOP\Cthulhuhoop-Customs\app\public\wp-admin\admin-ajax.php:0
+[08-Feb-2021 19:22:45 UTC] PHP   2. do_action() C:\Users\Dylan\Desktop\HOOP\Cthulhuhoop-Customs\app\public\wp-admin\admin-ajax.php:184
+[08-Feb-2021 19:22:45 UTC] PHP   3. WP_Hook->do_action() C:\Users\Dylan\Desktop\HOOP\Cthulhuhoop-Customs\app\public\wp-includes\plugin.php:484
+[08-Feb-2021 19:22:45 UTC] PHP   4. WP_Hook->apply_filters() C:\Users\Dylan\Desktop\HOOP\Cthulhuhoop-Customs\app\public\wp-includes\class-wp-hook.php:311
+[08-Feb-2021 19:22:45 UTC] PHP   5. wp_ajax_install_plugin() C:\Users\Dylan\Desktop\HOOP\Cthulhuhoop-Customs\app\public\wp-includes\class-wp-hook.php:287
+[08-Feb-2021 19:22:45 UTC] PHP   6. Plugin_Upgrader->install() C:\Users\Dylan\Desktop\HOOP\Cthulhuhoop-Customs\app\public\wp-admin\includes\ajax-actions.php:4346
+[08-Feb-2021 19:22:45 UTC] PHP   7. Plugin_Upgrader->run() C:\Users\Dylan\Desktop\HOOP\Cthulhuhoop-Customs\app\public\wp-admin\includes\class-plugin-upgrader.php:137
+[08-Feb-2021 19:22:45 UTC] PHP   8. Plugin_Upgrader->unpack_package() C:\Users\Dylan\Desktop\HOOP\Cthulhuhoop-Customs\app\public\wp-admin\includes\class-wp-upgrader.php:779
+[08-Feb-2021 19:22:45 UTC] PHP   9. unzip_file() C:\Users\Dylan\Desktop\HOOP\Cthulhuhoop-Customs\app\public\wp-admin\includes\class-wp-upgrader.php:328
+[08-Feb-2021 19:22:45 UTC] PHP  10. _unzip_file_ziparchive() C:\Users\Dylan\Desktop\HOOP\Cthulhuhoop-Customs\app\public\wp-admin\includes\file.php:1466
+[08-Feb-2021 19:22:45 UTC] PHP  11. WP_Filesystem_Direct->put_contents() C:\Users\Dylan\Desktop\HOOP\Cthulhuhoop-Customs\app\public\wp-admin\includes\file.php:1601
+[08-Feb-2021 19:22:45 UTC] PHP  12. WP_Filesystem_Direct->chmod() C:\Users\Dylan\Desktop\HOOP\Cthulhuhoop-Customs\app\public\wp-admin\includes\class-wp-filesystem-direct.php:86
+[08-Feb-2021 19:22:45 UTC] PHP  13. chmod() C:\Users\Dylan\Desktop\HOOP\Cthulhuhoop-Customs\app\public\wp-admin\includes\class-wp-filesystem-direct.php:173
