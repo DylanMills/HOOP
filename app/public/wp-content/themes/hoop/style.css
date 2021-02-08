@@ -916,10 +916,13 @@ textarea {
 */
 
 #masthead {
+	top: 0px;
+	/* top: 32px; */
 	width: 100%;
 	height: 100px !important;
 	background: linear-gradient( 0deg, rgba(218, 218, 218, 0.5) -80%, rgb(255, 255, 255) 100%);
 	backdrop-filter: blur(2px);
+	position: sticky;
 }
 
 #masthead>div {
@@ -959,21 +962,26 @@ textarea {
 	max-height: 80px;
 	max-width: 80px;
 }
-.wp-block-cover.has-background-dim:not([class*=-background-color]){
+
+.wp-block-cover.has-background-dim:not([class*=-background-color]) {
 	background-color: #ffffff;
 }
+
 .wp-block-cover {
 	text-transform: uppercase;
 	border: var(--green) 4px solid;
 	background-color: #ffffff;
 	background-size: 80%;
-	background-repeat: no-repeat;    transition-property: background-size;
-    transition-duration: 100ms;
-    transition-timing-function: ease-out;
+	background-repeat: no-repeat;
+	transition-property: background-size;
+	transition-duration: 100ms;
+	transition-timing-function: ease-out;
 }
-.wp-block-cover.has-background-dim:not(.has-background-gradient):before{
-display: none;
+
+.wp-block-cover.has-background-dim:not(.has-background-gradient):before {
+	display: none;
 }
+
 .wp-block-cover:hover {
 	cursor: pointer;
 	background-size: 85%;
@@ -981,6 +989,10 @@ display: none;
 
 .home-logo {
 	margin-bottom: -30px;
+}
+
+#primary {
+	margin-top: 150px;
 }
 
 /* .menu-primary-container {
