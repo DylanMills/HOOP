@@ -915,22 +915,24 @@ textarea {
 *Dylan ADDED
 */
 
-#masthead {
+#masthead ,.mob-menu-header-holder{
 	top: 0px;
-	/* top: 32px; */
+
+
 	width: 100%;
-	height: 100px !important;
 	background: linear-gradient( 0deg, rgba(218, 218, 218, 0.5) -80%, rgb(255, 255, 255) 100%);
 	backdrop-filter: blur(2px);
 	position: sticky;
 }
-
+#masthead{
+	height: 100px !important;
+}
 #masthead>div {
 	height: 100px !important;
 }
 
 .menu-item a {
-	font-size: 24px;
+	font-size: 20px;
 	color: var(--green);
 	text-transform: uppercase;
 	line-height: 60px !important;
@@ -992,9 +994,11 @@ textarea {
 }
 
 #primary {
-	margin-top: 150px;
+	margin-top: 40px;
 }
-
+/* nav#site-navigation.in {//KEEP NAVIGATION BAR
+	height: auto !important;
+} */
 /* .menu-primary-container {
 	display: flex;
 }
