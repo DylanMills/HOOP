@@ -31,7 +31,7 @@
 
 	<?php hoop_post_thumbnail(); ?>
 
-	<div class="entry-content">
+	<div class="entry-content grid-x grid-margin-x grid-margin-y">
 		<?php
 		the_content(
 			sprintf(
@@ -57,7 +57,7 @@
 		?>
 	</div><!-- .entry-content -->
 
-	<footer class="entry-footer">
+	<footer class="entry-footer  grid-x grid-margin-x grid-margin-y">
 		<?php hoop_entry_footer(); ?>
 	</footer><!-- .entry-footer -->
 </article><!-- #post-<?php the_ID(); ?> -->

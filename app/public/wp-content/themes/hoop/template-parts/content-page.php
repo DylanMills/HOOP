@@ -16,7 +16,7 @@
 
 	<?php hoop_post_thumbnail(); ?>
 
-	<div class="entry-content">
+	<div class="entry-content grid-x grid-margin-x grid-margin-y">
 		<?php
 		the_content();
 
@@ -30,7 +30,7 @@
 	</div><!-- .entry-content -->
 
 	<?php if ( get_edit_post_link() ) : ?>
-		<footer class="entry-footer">
+		<footer class="entry-footer  grid-x grid-margin-x grid-margin-y">
 			<?php
 			edit_post_link(
 				sprintf(

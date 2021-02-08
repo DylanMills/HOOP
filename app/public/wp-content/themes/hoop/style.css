@@ -953,10 +953,36 @@ textarea {
 	display: none;
 	/* margin-top: 100px !important; */
 }
-.custom-logo{margin: 10px 0px;
+
+.custom-logo {
+	margin: 10px 0px;
 	max-height: 80px;
 	max-width: 80px;
 }
+.wp-block-cover.has-background-dim:not([class*=-background-color]){
+	background-color: #ffffff;
+}
+.wp-block-cover {
+	text-transform: uppercase;
+	border: var(--green) 4px solid;
+	background-color: #ffffff;
+	background-size: 80%;
+	background-repeat: no-repeat;    transition-property: background-size;
+    transition-duration: 100ms;
+    transition-timing-function: ease-out;
+}
+.wp-block-cover.has-background-dim:not(.has-background-gradient):before{
+display: none;
+}
+.wp-block-cover:hover {
+	cursor: pointer;
+	background-size: 85%;
+}
+
+.home-logo {
+	margin-bottom: -30px;
+}
+
 /* .menu-primary-container {
 	display: flex;
 }
