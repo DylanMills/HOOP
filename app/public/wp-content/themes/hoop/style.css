@@ -944,12 +944,14 @@ textarea {
 }
 
 .menu-item a:hover {
-	color: var(--orange);
+	box-shadow: 0 3px 2px rgba(0, 0, 0, 0.4);
+	color: var(--green);
+	text-decoration: underline;
 	transform: scale(1.1);
 }
 
 .menu-item a {
-	transition-property: color, transform;
+	transition-property: text-decoration, transform,box-shadow;
 	transition-duration: 150ms;
 	transition-timing-function: ease-out;
 }
@@ -973,7 +975,7 @@ textarea {
 	text-transform: uppercase;
 	border: var(--green) 4px solid;
 	background-color: #ffffff;
-	background-size: 80%;
+	background-size: 70%;
 	background-repeat: no-repeat;
 	transition-property: background-size;
 	transition-duration: 100ms;
@@ -986,7 +988,7 @@ textarea {
 
 .wp-block-cover:hover {
 	cursor: pointer;
-	background-size: 85%;
+	background-size: 75%;
 }
 
 .home-logo {
