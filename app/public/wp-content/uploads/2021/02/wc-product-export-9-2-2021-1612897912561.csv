@@ -1,0 +1,38 @@
+﻿ID,Type,SKU,Name,Published,Is featured?,Visibility in catalog,Short description,Description,Date sale price starts,Date sale price ends,Tax status,Tax class,In stock?,Stock,Low stock amount,Backorders allowed?,Sold individually?,Weight (kg),Length (cm),Width (cm),Height (cm),Allow customer reviews?,Purchase note,Sale price,Regular price,Categories,Tags,Shipping class,Images,Download limit,Download expiry days,Parent,Grouped products,Upsells,Cross-sells,External URL,Button text,Position,Attribute 1 name,Attribute 1 value(s),Attribute 1 visible,Attribute 1 global,Attribute 1 default,Attribute 2 name,Attribute 2 value(s),Attribute 2 visible,Attribute 2 global,Attribute 2 default
+223,variable,,Custom Controller,1,0,visible,Get your fully customized controller.,"Get your fully customized controller.\n<div>\n<div>    const controllerTypeList = [""ps4"", ""xbox"", ""switch"", ""gamecube""];</div>\n<div>    const controllerPriceList = [90, 90, 90, 90];</div>\n<div>    const partTypeList = [""shell"", ""buttons"", ""dpad"", ""lstick"", ""rstick"", ""bumpers"", ""triggers""];</div>\n<div>    const partPriceList = [30, 15, 15, 15, 15, 15, 15];</div>\n<div>    const partVariantList = [""none"", ""black"", ""blue"", ""green"", ""red"", ""white"", ""silver"", ""gold"", ""purple"", ""pink"",];</div>\n<div>    const colors = ['1F1F1F', '1F1F1F', '1E4794', '147D27', 'A32A21', 'F2F2F2', 'C2C2C2', 'DCCD05', '5E4AF2', 'FF85EE'];</div>\n<div>    const installPrice = 20;</div>\n</div>",,,taxable,,1,,,0,0,,,,,1,,,,Uncategorized,,,http://cthulhuhoopcustoms.local/wp-content/uploads/2021/02/p3.jpg,,,,,,,,,0,Controller,"GameCube, PS4, Switch, Xbox One",1,1,PS4,Shell,"Black, Blue, Gold, Green, Pink, Purple, Red, Silver, White",1,1,Black
+225,variation,,"Custom Controller - GameCube, Black",1,0,visible,,,,,taxable,parent,1,,,0,0,,,,,0,,,60,,,,,,,id:223,,,,,,1,Controller,GameCube,,1,,Shell,Black,,1,
+226,variation,,"Custom Controller - GameCube, Blue",1,0,visible,,,,,taxable,parent,1,,,0,0,,,,,0,,,90,,,,,,,id:223,,,,,,2,Controller,GameCube,,1,,Shell,Blue,,1,
+227,variation,,"Custom Controller - GameCube, Green",1,0,visible,,,,,taxable,parent,1,,,0,0,,,,,0,,,90,,,,,,,id:223,,,,,,3,Controller,GameCube,,1,,Shell,Green,,1,
+228,variation,,"Custom Controller - GameCube, Red",1,0,visible,,,,,taxable,parent,1,,,0,0,,,,,0,,,90,,,,,,,id:223,,,,,,4,Controller,GameCube,,1,,Shell,Red,,1,
+229,variation,,"Custom Controller - GameCube, White",1,0,visible,,,,,taxable,parent,1,,,0,0,,,,,0,,,90,,,,,,,id:223,,,,,,5,Controller,GameCube,,1,,Shell,White,,1,
+230,variation,,"Custom Controller - GameCube, Silver",1,0,visible,,,,,taxable,parent,1,,,0,0,,,,,0,,,90,,,,,,,id:223,,,,,,6,Controller,GameCube,,1,,Shell,Silver,,1,
+231,variation,,"Custom Controller - GameCube, Gold",1,0,visible,,,,,taxable,parent,1,,,0,0,,,,,0,,,90,,,,,,,id:223,,,,,,7,Controller,GameCube,,1,,Shell,Gold,,1,
+232,variation,,"Custom Controller - GameCube, Purple",1,0,visible,,,,,taxable,parent,1,,,0,0,,,,,0,,,90,,,,,,,id:223,,,,,,8,Controller,GameCube,,1,,Shell,Purple,,1,
+233,variation,,"Custom Controller - GameCube, Pink",1,0,visible,,,,,taxable,parent,1,,,0,0,,,,,0,,,90,,,,,,,id:223,,,,,,9,Controller,GameCube,,1,,Shell,Pink,,1,
+234,variation,,"Custom Controller - PS4, Black",1,0,visible,,,,,taxable,parent,1,,,0,0,,,,,0,,,60,,,,,,,id:223,,,,,,10,Controller,PS4,,1,,Shell,Black,,1,
+235,variation,,"Custom Controller - PS4, Blue",1,0,visible,,,,,taxable,parent,1,,,0,0,,,,,0,,,90,,,,,,,id:223,,,,,,11,Controller,PS4,,1,,Shell,Blue,,1,
+236,variation,,"Custom Controller - PS4, Green",1,0,visible,,,,,taxable,parent,1,,,0,0,,,,,0,,,90,,,,,,,id:223,,,,,,12,Controller,PS4,,1,,Shell,Green,,1,
+237,variation,,"Custom Controller - PS4, Red",1,0,visible,,,,,taxable,parent,1,,,0,0,,,,,0,,,90,,,,,,,id:223,,,,,,13,Controller,PS4,,1,,Shell,Red,,1,
+238,variation,,"Custom Controller - PS4, White",1,0,visible,,,,,taxable,parent,1,,,0,0,,,,,0,,,90,,,,,,,id:223,,,,,,14,Controller,PS4,,1,,Shell,White,,1,
+239,variation,,"Custom Controller - PS4, Silver",1,0,visible,,,,,taxable,parent,1,,,0,0,,,,,0,,,90,,,,,,,id:223,,,,,,15,Controller,PS4,,1,,Shell,Silver,,1,
+240,variation,,"Custom Controller - PS4, Gold",1,0,visible,,,,,taxable,parent,1,,,0,0,,,,,0,,,90,,,,,,,id:223,,,,,,16,Controller,PS4,,1,,Shell,Gold,,1,
+241,variation,,"Custom Controller - PS4, Purple",1,0,visible,,,,,taxable,parent,1,,,0,0,,,,,0,,,90,,,,,,,id:223,,,,,,17,Controller,PS4,,1,,Shell,Purple,,1,
+242,variation,,"Custom Controller - PS4, Pink",1,0,visible,,,,,taxable,parent,1,,,0,0,,,,,0,,,90,,,,,,,id:223,,,,,,18,Controller,PS4,,1,,Shell,Pink,,1,
+243,variation,,"Custom Controller - Switch, Black",1,0,visible,,,,,taxable,parent,1,,,0,0,,,,,0,,,60,,,,,,,id:223,,,,,,19,Controller,Switch,,1,,Shell,Black,,1,
+244,variation,,"Custom Controller - Switch, Blue",1,0,visible,,,,,taxable,parent,1,,,0,0,,,,,0,,,90,,,,,,,id:223,,,,,,20,Controller,Switch,,1,,Shell,Blue,,1,
+245,variation,,"Custom Controller - Switch, Green",1,0,visible,,,,,taxable,parent,1,,,0,0,,,,,0,,,90,,,,,,,id:223,,,,,,21,Controller,Switch,,1,,Shell,Green,,1,
+246,variation,,"Custom Controller - Switch, Red",1,0,visible,,,,,taxable,parent,1,,,0,0,,,,,0,,,90,,,,,,,id:223,,,,,,22,Controller,Switch,,1,,Shell,Red,,1,
+247,variation,,"Custom Controller - Switch, White",1,0,visible,,,,,taxable,parent,1,,,0,0,,,,,0,,,90,,,,,,,id:223,,,,,,23,Controller,Switch,,1,,Shell,White,,1,
+248,variation,,"Custom Controller - Switch, Silver",1,0,visible,,,,,taxable,parent,1,,,0,0,,,,,0,,,90,,,,,,,id:223,,,,,,24,Controller,Switch,,1,,Shell,Silver,,1,
+249,variation,,"Custom Controller - Switch, Gold",1,0,visible,,,,,taxable,parent,1,,,0,0,,,,,0,,,90,,,,,,,id:223,,,,,,25,Controller,Switch,,1,,Shell,Gold,,1,
+250,variation,,"Custom Controller - Switch, Purple",1,0,visible,,,,,taxable,parent,1,,,0,0,,,,,0,,,90,,,,,,,id:223,,,,,,26,Controller,Switch,,1,,Shell,Purple,,1,
+251,variation,,"Custom Controller - Switch, Pink",1,0,visible,,,,,taxable,parent,1,,,0,0,,,,,0,,,90,,,,,,,id:223,,,,,,27,Controller,Switch,,1,,Shell,Pink,,1,
+252,variation,,"Custom Controller - Xbox One, Black",1,0,visible,,,,,taxable,parent,1,,,0,0,,,,,0,,,60,,,,,,,id:223,,,,,,28,Controller,Xbox One,,1,,Shell,Black,,1,
+253,variation,,"Custom Controller - Xbox One, Blue",1,0,visible,,,,,taxable,parent,1,,,0,0,,,,,0,,,90,,,,,,,id:223,,,,,,29,Controller,Xbox One,,1,,Shell,Blue,,1,
+254,variation,,"Custom Controller - Xbox One, Green",1,0,visible,,,,,taxable,parent,1,,,0,0,,,,,0,,,90,,,,,,,id:223,,,,,,30,Controller,Xbox One,,1,,Shell,Green,,1,
+255,variation,,"Custom Controller - Xbox One, Red",1,0,visible,,,,,taxable,parent,1,,,0,0,,,,,0,,,90,,,,,,,id:223,,,,,,31,Controller,Xbox One,,1,,Shell,Red,,1,
+256,variation,,"Custom Controller - Xbox One, White",1,0,visible,,,,,taxable,parent,1,,,0,0,,,,,0,,,90,,,,,,,id:223,,,,,,32,Controller,Xbox One,,1,,Shell,White,,1,
+257,variation,,"Custom Controller - Xbox One, Silver",1,0,visible,,,,,taxable,parent,1,,,0,0,,,,,0,,,90,,,,,,,id:223,,,,,,33,Controller,Xbox One,,1,,Shell,Silver,,1,
+258,variation,,"Custom Controller - Xbox One, Gold",1,0,visible,,,,,taxable,parent,1,,,0,0,,,,,0,,,90,,,,,,,id:223,,,,,,34,Controller,Xbox One,,1,,Shell,Gold,,1,
+259,variation,,"Custom Controller - Xbox One, Purple",1,0,visible,,,,,taxable,parent,1,,,0,0,,,,,0,,,90,,,,,,,id:223,,,,,,35,Controller,Xbox One,,1,,Shell,Purple,,1,
+290,variation,,"Custom Controller - Xbox One, Pink",1,0,visible,,,,,taxable,parent,1,,,0,0,,,,,0,,,90,,,,,,,id:223,,,,,,36,Controller,Xbox One,,1,,Shell,Pink,,1,

@@ -532,15 +532,13 @@ table {
 --------------------------------------------- */
 
 a {
-	color: #4169e1;
+	/* color: var(--green); */
 }
 
-a:visited {
-	color: #800080;
-}
+a:visited {}
 
 a:hover, a:focus, a:active {
-	color: #191970;
+	color: var(--orange);
 }
 
 a:focus {
@@ -915,23 +913,23 @@ textarea {
 *Dylan ADDED
 */
 
-#masthead ,.mob-menu-header-holder{
+#masthead, .mob-menu-header-holder {
 	top: 0px;
-
-
 	width: 100%;
 	background: linear-gradient( 0deg, rgba(218, 218, 218, 0.5) -80%, rgb(255, 255, 255) 100%);
 	backdrop-filter: blur(2px);
 	position: sticky;
 }
-#masthead{
+
+#masthead {
 	height: 100px !important;
 }
+
 #masthead>div {
 	height: 100px !important;
 }
 
-.menu-item a {
+header .menu-item a {
 	font-size: 20px;
 	color: var(--green);
 	text-transform: uppercase;
@@ -943,15 +941,38 @@ textarea {
 	padding-bottom: 0px !important;
 }
 
-.menu-item a:hover {
+header .menu-item a:hover {
 	box-shadow: 0 3px 2px rgba(0, 0, 0, 0.4);
 	color: var(--green);
 	text-decoration: underline;
 	transform: scale(1.1);
 }
 
+footer .menu-item a {
+	font-size: 16px;
+	color: white;
+	text-transform: uppercase;
+	line-height: 30px !important;
+	height: 30px;
+	margin-top: 35px;
+	margin-bottom: 35px;
+	padding-top: 0px !important;
+	padding-bottom: 0px !important;
+}
+
+footer .menu-item a:hover {
+	/* box-shadow: 0 3px 2px rgba(0, 0, 0, 0.4); */
+	/* color: white; */
+	text-decoration: underline;
+	/* transform: scale(1.1); */
+}
+
+footer {
+	bottom: 0px !important;
+}
+
 .menu-item a {
-	transition-property: text-decoration, transform,box-shadow;
+	transition-property: text-decoration, transform, box-shadow;
 	transition-duration: 150ms;
 	transition-timing-function: ease-out;
 }
@@ -998,9 +1019,22 @@ textarea {
 #primary {
 	margin-top: 40px;
 }
+
+footer {
+	position: relative;
+	bottom: -25px !important;
+	color: white !important;
+	padding: 00px;
+	height: 100px;
+	margin: 0px !important;
+	text-shadow: 1px 1px 1px black;
+	background: var(--green) !important;
+}
+
 /* nav#site-navigation.in {//KEEP NAVIGATION BAR
 	height: auto !important;
 } */
+
 /* .menu-primary-container {
 	display: flex;
 }
